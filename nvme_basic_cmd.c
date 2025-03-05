@@ -47,7 +47,7 @@ void print_str(uint8_t num){
                 break;
             }
         }
-            printf("\n%s***\t",lut_str_tbl[i]);
+            printf("\n%s\t",lut_str_tbl[i]);
 }
 void print_bit_wise(uint8_t value){
     for (int i = 7; i >= 0; i--) {
